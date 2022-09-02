@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Trending</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_3000">3000</string>
+    <string name="_200">200</string>
+    <string name="c">C++</string>
+    <string name="each_of_the_attributes_that_control_the_relative_position_of_each_view_are_emphasized">Each of the attributes that control the relative position of each view are emphasized.</string>
+    <string name="trending">Trending</string>
+    <string name="Description">Each of the attributes that control the relative position of each view are emphasized.</string>
+    <string name="_300000">3000</string>
+    <string name="retry">RETRY</string>
+    <string name="something_went_wrong">Something Went Wrong...</string>
+    <string name="an_alien">An alien is probably blocking your signal</string>
+</resources>

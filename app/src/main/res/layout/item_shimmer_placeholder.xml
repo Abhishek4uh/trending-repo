@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="21dp">
+            <ImageView
+                android:id="@+id/imgView1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="center"
+                android:background="@color/shimmer_effect">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/placeholderTextHeight"
+            android:layout_marginStart="27sp"
+            android:layout_marginTop="13sp"
+            android:layout_toEndOf="@id/img1"
+            android:fontFamily="@font/roboto_regular"
+            android:background="@color/shimmer_effect"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="200dp"
+            android:layout_height="@dimen/placeholderTextHeight"
+            android:background="@color/shimmer_effect"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_toEndOf="@id/img1"
+            android:layout_marginTop="40sp"
+            android:layout_marginStart="27sp">
+        </TextView>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img1"
+            android:layout_marginStart="27dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#52575C"
+            android:visibility="gone"
+            android:text="@string/each_of_the_attributes_that_control_the_relative_position_of_each_view_are_emphasized"           android:layout_below="@id/tv2"/>
+        <ImageView
+            android:id="@+id/redButton"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/image2"
+            android:visibility="gone"
+            android:layout_marginStart="100dp"
+            android:layout_below="@id/description"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/langTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:visibility="gone"
+            android:layout_below="@id/description"
+            android:layout_toEndOf="@id/redButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/imgStar"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/star"
+            android:visibility="gone"
+            android:layout_below="@id/description"
+            android:layout_toEndOf="@id/redButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="70dp"/>
+        <TextView
+            android:id="@+id/starCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_200"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_toEndOf="@id/imgStar"
+            android:layout_below="@id/description"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/fork"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/forkbutton"
+            android:visibility="gone"
+            android:layout_below="@id/description"
+            android:layout_toEndOf="@id/imgStar"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/forkCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/fork"
+            android:layout_below="@id/description"
+            android:layout_marginStart="5dp"
+            android:text="@string/_3000"
+            android:textSize="10sp"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            tools:ignore="SmallSp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E8E8E8"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/imgStar"/>
+
+    </RelativeLayout>
+</RelativeLayout>
