@@ -6,4 +6,4 @@
 
 ##### How app interface look like  
 
-![](https://whimsical.com/trending-repo-project-android-R6SigbLrwEYFJ2kno5pUF5)
+![](https://github.com/Abhishek4uh/trending-repo/blob/master/Trending%20Repo%20Project%20Android.png)
