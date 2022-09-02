@@ -2,7 +2,7 @@
 
 ### This application fetch the trending repositories from Github along their information like (Language,Star_Count,Fork_Count,Star_Count).....
 
-#### I have used this API ("https://trendings.herokuapp.com/repo") to get JSON data.
+#### I have used this API ("https://trendings.herokuapp.com/repo") to get JSON data and I used various library in this Project....
 
 ##### How app interface look like  
 
