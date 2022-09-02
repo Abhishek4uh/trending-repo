@@ -4,4 +4,6 @@
 
 #### I have used this API("https://trendings.herokuapp.com/repo") to get JSON data.
 
-##### How app interface look like  ![](https://whimsical.com/trending-repo-project-android-R6SigbLrwEYFJ2kno5pUF5)
+##### How app interface look like  
+
+![](https://whimsical.com/trending-repo-project-android-R6SigbLrwEYFJ2kno5pUF5)
